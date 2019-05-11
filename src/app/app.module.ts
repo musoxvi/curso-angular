@@ -4,9 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { TitleComponent } from './title/title.component';
+import { FullScrComponent } from './full-scr/full-scr.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TitleComponent,
+    FullScrComponent
   ],
   imports: [
     BrowserModule,
